@@ -1,0 +1,12 @@
+[workspace]
+channels = ['https://conda.modular.com/max-nightly', 'conda-forge']
+name = "financial-recipes-mojo"
+platforms = ['osx-arm64', "linux-64"]
+version = "0.1.0"
+
+[tasks]
+test = "sh run_tests.sh"
+audit = "sh audit/run_audit.sh"
+
+[dependencies]
+mojo = ">=1.3.0.dev2026111105,<2"

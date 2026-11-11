@@ -1,0 +1,13 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+# Mojo build output
+*.mojopkg
+.mojo_cache/
+__mojocache__/
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+# raw output of the audit program (docs/AUDIT.md is the result)
+audit/audit_output.txt
